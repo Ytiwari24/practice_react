@@ -269,6 +269,25 @@ const MyApp = () => {
           <Typography variant="h6" style={{ flexGrow: 1, fontWeight: 'bold', fontSize: '1.5rem' }}>
             Future X
           </Typography>
+          {/* Additional Titles */}
+                     <Typography variant="h6" style={{ marginRight: 30 }}>
+                         Features
+                     </Typography>
+                     <Typography variant="h6" style={{ marginRight: 30 }}>
+                         Pricing
+                     </Typography>
+                     <Typography variant="h6" style={{ marginRight: 30 }}>
+                         Solutions
+                     </Typography>
+                     <Typography variant="h6" style={{ marginRight: 30 }}>
+                         Customers
+                     </Typography>
+                     <Typography variant="h6" style={{ marginRight: 30 }}>
+                         Resources
+                     </Typography>
+                     <Typography variant="h6" style={{ marginRight: 30 }}>
+                         Get Started
+                     </Typography>
           <IconButton color="inherit">
             <Avatar>
               <AccountCircleIcon />
