@@ -9,7 +9,7 @@ function MyButton() {
 export default function MyApp() {
   return (
     <div>
-      <h1>We are testing the era </h1>
+      <h1>Hello Pravind Welcome to React </h1>
       <MyButton />
     </div>
   );
