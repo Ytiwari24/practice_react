@@ -1,3 +1,7 @@
+import '../src/App.css';
+import React from 'react';
+import Navbar from './components/navbar';
+
 function MyButton() {
   return (
     <button>
@@ -8,7 +12,8 @@ function MyButton() {
 
 export default function MyApp() {
   return (
-    <div>
+    <div className='App'>
+      <Navbar />
       <h1>Hello Pravind Welcome to React </h1>
       <MyButton />
     </div>

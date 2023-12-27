@@ -109,8 +109,6 @@ const MyApp = () => {
 
     return (
         <div>
-
-
             <AppBar position="static">
                 <Toolbar>
                     {/* Menu Button */}
@@ -179,7 +177,7 @@ const MyApp = () => {
 
             <Container>
                 {/* Projects Section */}
-                <Paper
+                <Paper width='100%'
                     sx={{
                         backgroundColor: '#e0f7fa',
                         padding: '16px',
@@ -263,8 +261,6 @@ const MyApp = () => {
                 </Paper>
 
                 {/* Our Teams Section */}
-
-
                 <Paper
                     sx={{
                         backgroundColor: '#f8bbd0',
