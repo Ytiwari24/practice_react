@@ -1,6 +1,7 @@
 import '../src/App.css';
 import React from 'react';
 import Navbar from './components/navbar';
+import ProfileCard from './components/ProfileCard';
 
 function MyButton() {
   return (
@@ -13,9 +14,14 @@ function MyButton() {
 export default function MyApp() {
   return (
     <div className='App'>
+
       <Navbar />
-      <h1>Hello Pravind Welcome to React </h1>
-      <MyButton />
+      <h1>
+        Our Teams
+      </h1>
+      <ProfileCard />
+      {/* <h1>Hello Pravind Welcome to React </h1>
+      <MyButton /> */}
     </div>
   );
 }
