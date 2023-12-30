@@ -42,4 +42,45 @@ const Profiles = [
 
 ];
 
+const Services = [
+    {
+        name: 'Rocket',
+        expertise: 'Space Guard',
+        imageSrc: `${NewImage}`,
+    },
+    {
+        name: 'John Doe',
+        expertise: 'Web Developer',
+        imageSrc: `${ProfileImage}`,
+    },
+    {
+        name: 'Rocket',
+        expertise: 'Space Guard',
+        imageSrc: `${NewImage}`,
+    },
+    {
+        name: 'John Doe',
+        expertise: 'Web Developer',
+        imageSrc: `${ProfileImage}`,
+    },    {
+        name: 'Rocket',
+        expertise: 'Space Guard',
+        imageSrc: `${NewImage}`,
+    },
+    {
+        name: 'John Doe',
+        expertise: 'Web Developer',
+        imageSrc: `${ProfileImage}`,
+    },
+    // { name: 'Pravind Bhardwaj', expertise: 'Flutter Developer' },
+    // { name: 'John Doe', expertise: 'React Developer' },
+    // { name: 'Pravind Bhardwaj', expertise: 'Flutter Developer' },
+    // { name: 'John Doe', expertise: 'React Developer' }, 
+    // { name: 'Pravind Bhardwaj', expertise: 'Flutter Developer' },
+    // { name: 'John Doe', expertise: 'React Developer' }, 
+    // { name: 'Pravind Bhardwaj', expertise: 'Flutter Developer' },
+    // { name: 'John Doe', expertise: 'React Developer' },
+
+];
+
 export default Profiles;

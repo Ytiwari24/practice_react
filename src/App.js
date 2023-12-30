@@ -1,6 +1,6 @@
 import '../src/App.css';
 import React from 'react';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar/index';
 import ProfileCard from './components/ProfileCard';
 
 function MyButton() {
@@ -16,6 +16,10 @@ export default function MyApp() {
     <div className='App'>
 
       <Navbar />
+      <h1>
+        Services
+      </h1>
+      <ProfileCard />
       <h1>
         Our Teams
       </h1>
