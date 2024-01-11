@@ -2,7 +2,7 @@ import '../src/App.css';
 import React from 'react';
 import Navbar from './components/Navbar/index';
 import ProfileCard from './components/ProfileCard';
-
+import Carousels from './components/Carousels';
 function MyButton() {
   return (
     <button>
@@ -14,8 +14,10 @@ function MyButton() {
 export default function MyApp() {
   return (
     <div className='App'>
+     
 
       <Navbar />
+      <Carousels />
       <h1>
         Services
       </h1>
